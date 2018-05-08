@@ -38,6 +38,6 @@ class Owner
     new_pets = @pets
     new_pets[:fishes] << new_fish
     @pets = new_pets
-    binding.pry
+    #binding.pry
   end
 end
