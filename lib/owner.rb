@@ -37,6 +37,7 @@ class Owner
     binding.pry
     #new_fish.owner = self
     #self.pets = pets
-    self.pets[:fishes] << new_fish
+    @pets = pets 
+    @pets[:fishes] << new_fish
   end
 end
