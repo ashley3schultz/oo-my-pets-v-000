@@ -60,10 +60,10 @@ class Owner
     @pets[:fishes].each {|fish|  fish.mood = "happy"}
   end
   
-  def sell_pets 
-    @pets[:dogs].each {|dog|  dog.mood = "nervous"}
-    @pets.keys.each {|pt| pt.each {|pet| pet.mood = "nervous"
-      binding.pry
+  def sell_pets
+    @pets.keys.clear
+    #@pets.keys.each {|pt| pt.each {|pet| pet.mood = "nervous"
+      #binding.pry
     }}
   end
 end
