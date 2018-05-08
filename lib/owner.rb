@@ -66,6 +66,7 @@ class Owner
   end
   
   def list_pets
+    fc = @pets[:fishes].size
     puts "I have #{fc} fish, #{dc} dog(s), and #{cc} cat(s)."
   end 
 end
