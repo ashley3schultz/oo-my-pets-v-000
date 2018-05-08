@@ -66,7 +66,6 @@ class Owner
   end
   
   def list_pets
-    @pets.each {|k,a| type = 
-    puts "#{a.size} fish"
+    puts "I have #{fc} fish, #{dc} dog(s), and #{cc} cat(s)."
   end 
 end
