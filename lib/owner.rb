@@ -32,8 +32,8 @@ class Owner
   end 
   
   def buy_fish(name)
-    Fish.new(name)
-    pets[fishes] << self
+    fish = Fish.new(name)
+    pets[fishes] << fish
     @pets
   end
 end
