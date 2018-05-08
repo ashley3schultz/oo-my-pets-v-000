@@ -9,10 +9,7 @@ class Owner
     @@all << self
   end 
   
-  def pets 
-    @pets = {:fishes => [], :dogs => [], :cats => []}
-  end 
-  
+#Class Methods
   def self.reset_all 
     @@all.clear 
   end
@@ -25,8 +22,12 @@ class Owner
     @@all
   end 
   
+#Instance Methods
   def say_species
     "I am a #{@species}."
   end
   
+  def buy_fish
+    Fish.new()
+    pets[fishes] << self
 end
