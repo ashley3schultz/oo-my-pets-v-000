@@ -35,6 +35,6 @@ class Owner
     new_fish = Fish.new(name)
     new_fish.owner = self
     self.pets = pets
-    pets[:fishes] << new_fish
+    @pets[:fishes] << new_fish
   end
 end
