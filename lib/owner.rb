@@ -64,4 +64,9 @@ class Owner
     @pets.each {|k,a| a.each {|pet| pet.mood = "nervous"}}
     @pets.each {|k,a| a.clear}
   end
+  
+  def list_pets
+    @pets.each {|k,a| type = 
+    puts "#{a.size} fish"
+  end 
 end
