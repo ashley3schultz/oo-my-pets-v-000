@@ -69,7 +69,7 @@ class Owner
     fc = @pets[:fishes].size
     dc = @pets[:dogs].size
     cc = @pets[:cats].size
-    binding.pry
+    #binding.pry
     "I have #{fc} fish, #{dc} dog(s), and #{cc} cat(s)."
   end 
 end
